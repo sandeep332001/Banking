@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Divansh",
+    "email": "divansh23@gmail.com",
+    "currentBalance": 2400
+  },
+  {
+    "id": "2",
+    "name": "Sandeep Maurya",
+    "email": "sandeep123@gmail.com",
+    "currentBalance": 2400
+  },
+  {
+    "id": "3",
+    "name": "Aman Prateek",
+    "email": "aman123@gmail.com",
+    "currentBalance": 2400
+  },
+  {
+    "id": "4",
+    "name": "Dikshit",
+    "email": "dikshit123@gmail.com",
+    "currentBalance": 2400
+  },
+  {
+    "id": "5",
+    "name": "Rana",
+    "email": "rana123@gmail.com",
+    "currentBalance": 2400
+  }
+]

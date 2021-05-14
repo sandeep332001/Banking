@@ -1,0 +1,61 @@
+$font-color: rgb(0, 0, 0);
+
+// .CustomerList {
+//   // height: (100vh);
+//   background: #eb01a5;
+//   background-image: url("./background.jpg"); /* fallback */
+//   background-image: linear-gradient(#19eb3560, #b3636188),
+//     url("./background.jpg");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   display: flex;
+//   flex-wrap: wrap;
+
+//   & .list {
+//     margin: 1rem auto;
+//     border: 5px solid blue;
+//     height: 200px;
+//     & span {
+//       display: flex;
+//     }
+//   }
+// }
+
+.CustomerList {
+  height: (100vh);
+  background-image: url("./background.jpg"); /* fallback */
+  background-image: linear-gradient(#19eb3560, #b3636188),
+    url("./background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem;
+  color: $font-color;
+
+  .tablelist {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: rgba(137, 103, 168, 0.356);
+    border-radius: 10px;
+    // border: 2px solid #edeea73b;
+    & td,
+    & th {
+      border: 2px solid #8283513b;
+      border-radius: 10px;
+      text-align: center;
+      padding: 10px 40px;
+    }
+    & .id {
+      border-radius: 10px;
+    }
+    & td button {
+      border: none;
+      background-color: inherit;
+      & .send {
+        text-decoration: none;
+        color: $font-color;
+      }
+    }
+  }
+}
